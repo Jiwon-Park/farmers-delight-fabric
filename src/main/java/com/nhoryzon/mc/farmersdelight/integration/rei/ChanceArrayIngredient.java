@@ -147,4 +147,8 @@ public class ChanceArrayIngredient extends AbstractList<EntryStack<?>> implement
         return new ChanceArrayIngredient(out, chance);
     }
 
+    @Override
+    public <T> T getSetting(EntryIngredientSetting<T> setting) {
+        return null;
+    }
 }
